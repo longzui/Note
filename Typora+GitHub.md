@@ -2,7 +2,7 @@
 
 - 配置Typora图片
 
-  ![image-20221124234818478](C:\Users\longzui\AppData\Roaming\Typora\typora-user-images\image-20221124234818478.png)
+  ![image-20221125003706028](Typora+GitHub_image/image-20221125003706028.png)
 
 - 获取ssh密钥，并在github上添加ssh密钥
 
@@ -11,7 +11,7 @@
     - 获取ssh密钥：`cd ~/.ssh    cat ~/.ssh/id_rsa.pub`
     - 复制ssh密钥
   - 在github进入Settings,再点击里面的SSH and GPG KEYS ==> New SSH key
-    - ![image-20221124235443018](C:\Users\longzui\AppData\Roaming\Typora\typora-user-images\image-20221124235443018.png)
+    - ![image-20221125003732961](Typora+GitHub_image/image-20221125003732961.png)
 
 - 创建远端仓库，先拉取远端仓库，在推送给远端仓库
 
