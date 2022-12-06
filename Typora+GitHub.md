@@ -2,7 +2,7 @@
 
 - 配置Typora图片
 
-  ![image-20221125003706028](image/Typora+GitHub/image-20221125003706028.png)
+  ![image-20221206101641300](image/Typora+GitHub/image-20221206101641300.png)
 
 - 获取ssh密钥，并在github上添加ssh密钥
 
