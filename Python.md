@@ -1,6 +1,6 @@
 # Python
 
-##### py文件打包exe
+## 1.py文件打包exe
 
 1.  安装pyinstaller：
 
@@ -14,7 +14,7 @@
    多个文件打包格式：
    pyinstaller [主文件] -p [其他文件1] -p [其他文件2]  --hidden-import [自建模块1] --hidden-import [自建模块2] 
    
-   pyinstaller.bat -F main.py -p models.py --hidden-import pymssql --icon upload.ico
+   pyinstaller.bat -F new_main.py -p models.py -p model_history.py --hidden-import pymssql --icon upload.ico
    
    单个文件打包格式：
    pyinstaller —F [单个py文件]
@@ -26,7 +26,7 @@
 
 
 
-##### schedule定时任务
+## 2.schedule定时任务
 
 1. import schedule
 
@@ -40,3 +40,5 @@
    schedule.every().monday.do(job, name)
    schedule.every().wednesday.at("13:15").do(job, name)
    ```
+
+列表
